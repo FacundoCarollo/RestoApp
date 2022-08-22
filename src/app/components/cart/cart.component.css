@@ -1,0 +1,76 @@
+
+
+.offcanvas-body{
+    width: 100%;
+    background:rgb(60, 76, 159);
+}
+
+.offcanvas-header{
+    background:rgb(60, 76, 159);
+}
+
+.offcanvas-title{
+    color: white;
+}
+h2{
+color: white;
+}
+
+h3{
+    color: black;
+}
+
+
+
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  
+}
+
+.text-end{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+.total{
+    width: 100%;
+    display: flex;
+
+    font-size: 20px;
+    color: white;
+}
+
+.titulo{
+    color: black;
+}
+
+
+.offcanvas-content{
+    background:rgb(60, 76, 159);
+}
+
+button{
+    width: 100%;
+}
+
+
+.icon{
+    position: absolute;
+     width: 100%;
+     height: 50px;
+ 
+    color: black;
+    font-size: 40px;
+    top: 32px;
+    left: 85% ;
+    
+}

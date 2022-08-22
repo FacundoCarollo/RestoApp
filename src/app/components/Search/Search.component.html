@@ -1,0 +1,11 @@
+<div class="content-all">
+  <div class="content-search">
+    <h1 class="title">RestoApp</h1>
+    <div class="search">
+    <mat-icon aria-hidden="false" class="icon" fontIcon="search"></mat-icon>
+      <input  class="form-control" type="text"  [(ngModel)]="name"   [placeholder]="placeholder">
+      <button  class="btn btn-light" (click)="seleccionarPlato()" >Search</button>
+    </div>
+    <button type="submit" class="log_out btn btn-light" (click)="LogOut()" >Log out</button>
+  </div>
+</div>

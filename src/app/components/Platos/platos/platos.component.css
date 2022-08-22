@@ -1,0 +1,62 @@
+.content-all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-search{
+    width: 100%; 
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.content-card{
+    width: 15%;
+    padding-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.list-platos{
+    padding-top: 5px; ;
+    width: 100%;
+    color: black;
+}
+
+button{
+    width: 100%;
+}
+
+.span{
+    font-size: 16px;
+}
+
+.add{
+    width: 100%;
+    height: 50px;
+    font-size: 20px ;
+}
+
+.cart{
+    float: inline-end;
+}
+

@@ -1,0 +1,98 @@
+header{
+  width: 100%;
+  height: 100%;
+}
+
+.content-all{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 80%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.content-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.validacion{
+  color: red;
+}
+  
+.contet-form{
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+}
+  
+.form-horizontal{
+  width: 100%;
+  height: 100%;
+  }
+  
+h1{ 
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+}
+  
+mat-form-field{
+  width: 700px;
+}
+  
+button{
+  width: 700px;
+}
+
+@media(max-width : 768px) {
+    
+  button{
+   width: 450px;
+  }
+
+  mat-form-field{
+    width: 450px;
+  }
+}
+
+@media(max-width : 480px) {
+    
+  button{
+    width: 350px;
+  }
+   
+  mat-form-field{
+    width: 350px;
+  }
+}
+
+@media(max-width : 362px) {
+  button{
+    width: 250px;
+  }
+     
+  mat-form-field{
+    width: 250px;
+  } 
+}
+
+@media(max-width : 268px) {
+  button{
+    width: 150px;
+  }
+
+  mat-form-field{
+    width: 150px;
+  }
+}

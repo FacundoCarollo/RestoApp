@@ -1,0 +1,49 @@
+<div class="content-all">
+    <div class="content-search">
+        <app-Search [placeholder]="'Search'"(platoSelected)="onPlatoselected($event)"  style="color: White ;"></app-Search>
+    </div>
+    <div class="cards">
+        <div class="content-card" *ngFor="let plato of platos ">
+            <mat-card class="card"  >
+                <div class="content-img" >
+                    <img width="100%"  margin="0" padding="0"  [src]="plato.image">
+                </div>
+                <div class="content-info" width="100%">
+                    <div class="detalle list-platos">
+                        <h1 class="list-platos">Nombre: <span class="span">{{plato.title}} </span></h1>
+                    </div>
+                    <div class="detalle list-platos">
+                        <h1 class="list-platos">Precio: <span class="span">$ {{plato.pricePerServing}} </span></h1>
+                    </div>
+                    <div class="detalle list-platos">
+                        <h1 class="list-platos">Tiempo de preparación: <span class="span">{{plato.readyInMinutes}} minutos </span></h1>
+                    </div>
+                    <div class="detalle list-platos">
+                        <h1 class="list-platos">Score: <span class="span"> {{plato.healthScore}} </span></h1>
+                    </div>
+                    <app-cart   class="cart" ></app-cart>
+                </div>
+            </mat-card>
+        </div>
+
+    </div>
+</div>
+
+
+
+  
+ 
+      
+      
+   
+
+
+
+
+
+
+
+
+
+
+
